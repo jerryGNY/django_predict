@@ -1,0 +1,35 @@
+{
+  "content-encoding": "utf-8",
+  "content-type": "application/json",
+  "properties": {
+    "priority": 0,
+    "reply_to": "30e5cf27-d456-33c5-8082-60e1b3929243",
+    "correlation_id": "95562772-042d-4518-b162-f14e340a2834",
+    "delivery_mode": 2,
+    "delivery_tag": "fcd4084f-1340-45e3-ac19-02acb0299231",
+    "delivery_info": {
+      "routing_key": "celery",
+      "exchange": ""
+    },
+    "body_encoding": "base64"
+  },
+  "headers": {
+    "origin": "gen4986@ubuntu",
+    "root_id": "95562772-042d-4518-b162-f14e340a2834",
+    "eta": null,
+    "lang": "py",
+    "task": "send_sms_code",
+    "timelimit": [
+      null,
+      null
+    ],
+    "id": "95562772-042d-4518-b162-f14e340a2834",
+    "parent_id": null,
+    "retries": 0,
+    "kwargsrepr": "{}",
+    "argsrepr": "('13500000000', '123456')",
+    "group": null,
+    "expires": null
+  },
+  "body": "W1siMTM1MDAwMDAwMDAiLCAiMTIzNDU2Il0sIHt9LCB7ImNoYWluIjogbnVsbCwgImNob3JkIjogbnVsbCwgImVycmJhY2tzIjogbnVsbCwgImNhbGxiYWNrcyI6IG51bGx9XQ=="
+}
